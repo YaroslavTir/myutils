@@ -24,9 +24,13 @@
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId>
             <version>${groovyVersion}</version>
-            <!-- Uncomment line below to use invokedynamic version of Groovy (requires Java 7 or higher). -->
-            <!--<classifier>indy</classifier>-->
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
     </dependencies>
 
     <build>
